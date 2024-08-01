@@ -1,0 +1,41 @@
+Para cuando pongas un texto de fondo salga la tipica frase de un ejemplo: En correo; example@gmail.com.
+Luego cuando vayas a  escribir va a desaparecer.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  En CSS                                                 En HTML 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+HTML:
+
+<textarea name="colorPicker" id="textArea" placeholder=" * "></textarea> 
+
+
+
+
+
+CSS:
+
+textarea{
+    padding: 10px;
+    display: block;
+    outline: none;
+    min-width: 250px;
+    max-width: 1200px;
+    max-height: 70vh;
+    min-height: 20vh;
+    font-size: 14px;
+}
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cuando ponga *.
+
+Significado:
+
+*  : Significa que va el texto que quieres que salga de fondo, quitar el simbolito i reescribirlo a lo que quieras.

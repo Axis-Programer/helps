@@ -1,0 +1,17 @@
+/*En el HTML hay  que poner una linea que ponga tal cual esta estructura
+
+<footer class="footer">
+    (aquí lo que quieras h1, p, h2...)
+</footer>
+
+*/
+
+.footer {
+    background-color: rgba(64, 123, 224, 0);
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
